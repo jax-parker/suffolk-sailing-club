@@ -94,5 +94,19 @@ h1, h2 {
 /*About us Information*/
 .about-us {
     background-color: #b3cde0 ;
+    height:80px;
     text-align: center;
+    padding:20px 0;
+}
+
+.left-div {
+    padding-top:30px;
+    width:50%;
+    float:left;
+
+}
+.right-div {
+    padding-top:30px;
+    width:50%;
+    float:right;
 }
