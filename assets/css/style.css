@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@1,300&display=swap');
-/*Set wildcard and override defaults*/
+/*override defaults*/
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-/*Set body font*/
+/*body styling*/
 body {
     font-family: roboto, sans-serif;
+    color:#3a3a3a;
+}
+/*headingsand logo*/
+h1, h2 {
+    font-family: Roboto Condensed, sans-serif;
+    letter-spacing: 3px;
+    color:#011f4b;
+}
+#logo {
+    width:100px;
+    height:100px;
+    float:left;
+}
+#logo-name {
+    display:inline;
+    font-size:300%;
 }
