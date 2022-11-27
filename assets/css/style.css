@@ -91,3 +91,8 @@ h1, h2 {
     top: 50px;
     right: 250px;
 }
+/*About us Information*/
+.about-us {
+    background-color: #b3cde0 ;
+    text-align: center;
+}
