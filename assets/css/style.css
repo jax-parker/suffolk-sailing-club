@@ -111,7 +111,7 @@ h2 {
     right: 250px;
 }
 
-/*About us Information*/
+/*About us Title Box*/
 #about-us {
     background-color: #011f4b;
     height: 100px;
@@ -130,55 +130,25 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
 }
-/*Flex Containers for Info Section*/
+/*Flex Container for Info Section*/
 .flex-container {
     display: flex;
-    flex-direction: column;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-wrap:nowrap;
+    background-color:#011f4b;
 
 }
-
-#first-info {
-    width: 100%;
-    height: auto;
-    margin: 18px;
+.flex-container > div {
+    background-color:#fff;
+    margin:10px;
+    text-align:left;
+    font-size:30px;
+    padding:15px
+    
+}
+#hobie2 {
+    height:120%    
 }
 
-#top-text {
-    width: 60%;
-    text-align: left;
-    align-self: left;
-    line-height: 25px;
-}
-
-#top-title {
-    font-size: 40px;
-    font-family: Roboto Condensed, sans-serif;
-    text-align: left;
-}
-
-#top-text {
-    font-size: 15px;
-    font-family: Roboto, sans-serif;
-    padding-bottom: 12px;
-}
-
-.memb-button {
-    padding: 5px 20px;
-    background-color: #011f4b;
-    border: 1px solid #0011f4b;
-    align-self: center;
-}
-
-.button {
-    color: #fff;
-    font-family: Roboto Condensed, sans serif;
-    align-self: center;
-    border-radius: 20px;
-    text-decoration: none;
-}
 
 /* Medium screens */
 @media all and (max-width: 800px) {
