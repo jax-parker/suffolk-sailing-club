@@ -43,6 +43,7 @@ h2 {
     font-size: 300%;
     padding-left: 20px;
     margin-top: 50px;
+    color:#011f4b;
 }
 
 #strapline {
@@ -158,8 +159,20 @@ h2 {
 #hobie2 {
     height:120%    
 }
+/*Footer Syling*/
+.social-networks {
+    text-align:center;
+}
+.social-networks > li {
+    display:inline;
+}
+.social-networks i {
+    font-size: 300%;
+    margin:1%;
+    padding:5%;
+    color:#011f4b;
 
-
+}
 /* Medium screens */
 @media all and (max-width: 800px) {
     .navigation {
