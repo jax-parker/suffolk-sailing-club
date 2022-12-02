@@ -58,6 +58,9 @@ h2 {
     letter-spacing: 3px;
     background-color: #b3cde0;
     padding: 10px;
+    position:sticky;
+    top:0;
+    z-index: 1;
 
 }
 
@@ -158,6 +161,12 @@ h2 {
 }
 #hobie2 {
     height:120%    
+}
+#changing-room {
+    height:120%;  
+}
+#boat-storage {
+    height:120%;  
 }
 /*Footer Syling*/
 .social-networks {
