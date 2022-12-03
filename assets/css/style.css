@@ -222,6 +222,22 @@ h2 {
     color: #011f4b;
     padding:10px 0px 5px;
 }
+/*Contact Boxes*/
+.contact-us {
+    background-color: #011f4b;
+    color:#fafafa;
+    font-weight: 600;
+    height: 200px;
+}
+.flex-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-box {
+    background-color: #011f4b;
+}
 /* Medium screens */
 @media all and (max-width: 800px) {
     .navigation {
