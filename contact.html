@@ -22,18 +22,18 @@
 </head>
 
 <body>
- <!--logo, title and strapline-->
- <header>
-    <div id="header-box">
-        <img id="logo" src="assets/images/boat-logo.png" alt="club logo is a blue sailing boat">
-        <a href="index.html">
-            <h1 id="logo-name">Suffolk Sailing Club</h1>
-            <h2 id="strapline">Beautiful lakes for sailing, kayaking or paddleboarding.</h2>
-        </a>
-    </div>
-</header>
-<!--navigation bar-->
-    <nav >
+    <!--logo, title and strapline-->
+    <header>
+        <div id="header-box">
+            <img id="logo" src="assets/images/boat-logo.png" alt="club logo is a blue sailing boat">
+            <a href="index.html">
+                <h1 id="logo-name">Suffolk Sailing Club</h1>
+                <h2 id="strapline">Beautiful lakes for sailing, kayaking or paddleboarding.</h2>
+            </a>
+        </div>
+    </header>
+    <!--navigation bar-->
+    <nav>
         <ul id="menu">
             <li>
                 <a href="index.html" class="active">Home</a>
@@ -49,17 +49,51 @@
             </li>
         </ul>
     </nav>
-<!--Contact Form-->
-<div class="contact-us">
-    <h2>Contact Us</h2>
-</div>
-    <div class="flex-box contact-box"></div>
-        <div class="flex-box flex-form">
-            <label for="first-name">First Name</label>
-            <input type="text" id="name" name="name" required>
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" required>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" required>
-        
+    <!--Contact Form Header-->
+    <div class="contact-us">
+        <h2>Contact Us</h2>
+    </div>
+    <!--Contact Form-->
+    <section id="contact-section">
+        <form class="flex-box" action="thank-you.html">
+            <div class="flex-box flex-form">
+
+                <div class="flex-box form-item">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="flex-box form-item">
+                    <label for="surname">Surname</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+                <div class="flex-box form-item">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="flex-box form-item">
+                    <p>Reason for contacting us?</p>
+                </div>
+                <div class="flex-box form-item-radio">
+                    <input type="radio" class="radio" id="join" name="contact-reason" value="Membership" required>
+                    <label for="join">Apply For Membershiip</label>
+                </div>
+                <div class="flex-box form-item-radio">
+                    <input type="radio" class="radio" id="booking" name="contact-reason"
+                        value="Book a lesson or activity">
+                    <label for="booking">Book An Activity Or Lesson</label>
+                </div>
+                <div class="flex-box form-item-radio">
+                    <input type="radio" class="other" id="other" name="contact-reason" value="Other">
+                    <label for="other">Other</label>
+                </div>
+                <div class="flex-box form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Type your message here:"></textarea>
+                </div>
+                <div class="form-item">
+                    <input class="contact-button" type="submit" value="Contact Us!" />
+                </div>
+        </form>
+        </div>
+    </section>
 </body>

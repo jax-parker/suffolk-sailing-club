@@ -43,7 +43,7 @@ h2 {
     font-size: 300%;
     padding-left: 20px;
     margin-top: 50px;
-    color:#011f4b;
+    color: #011f4b;
 }
 
 #strapline {
@@ -58,8 +58,8 @@ h2 {
     letter-spacing: 3px;
     background-color: #b3cde0;
     padding: 10px;
-    position:sticky;
-    top:0;
+    position: sticky;
+    top: 0;
     z-index: 1;
 
 }
@@ -94,12 +94,14 @@ h2 {
 #welcome-image {
     height: 600px;
     width: 100%;
-    background: no-repeat center center;
-    position: relative;
+    background: url("../images/wild-geese-cropped.jpg");
+    background-size:cover;
+    background-position: center;
+    
 }
 
 
-#welcome-text, h1 {
+#welcome-text h1 {
     color: #fff;
 }
 
@@ -127,6 +129,7 @@ h2 {
     color: #fff;
     margin-top: 20px;
     text-align: center;
+
 }
 
 .info-sub-header {
@@ -134,66 +137,74 @@ h2 {
     margin-bottom: 20px;
     text-align: center;
 }
+
 /*Flex Container for Info Section*/
 .flex-container {
     display: flex;
-    flex-wrap:nowrap;
-    background-color:#011f4b;
+    flex-wrap: nowrap;
+    background-color: #011f4b;
 
 }
-.flex-container > div {
-    background-color:#fff;
-    margin:10px;
-    
-       
+
+.flex-container>div {
+    background-color: #fff;
+    margin: 10px;
 }
+
 .flex-title {
-    align-self:flex-start;
-    font-size:50px;
-    padding: 15px;
-    
+    align-self: flex-start;
+    font-size: 50px;
+    padding: 10px;
+}
 
-}
 .flex-info {
-    align-self:center;
+    align-self: center;
     justify-content: flex-end;
-    font-size:25px;
-    text-align:left;
-    Padding:25px;
+    font-size: 20px;
+    text-align: left;
+    Padding: 22px;
 }
+
 #hobie2 {
-    height:120%  ;
-    background-color: #011f4b  
+    height: 120%;
+    background-color: #011f4b
 }
+
 #changing-room {
-    height:120%;  
-    background-color: #011f4b 
+    height: 120%;
+    background-color: #011f4b
 }
+
 #boat-storage {
-    height:120%;  
-    background-color: #011f4b 
+    height: 120%;
+    background-color: #011f4b
 }
+
 #member-canoe {
-    height:120%;  
-    background-color: #011f4b 
+    height: 120%;
+    background-color: #011f4b
 }
+
 /*Footer Syling*/
 .social-networks {
-    text-align:center;
-    
-}
-.social-networks > li {
-    display:inline;
-}
-.social-networks i {
-    font-size: 300%;
-    margin:1%;
-    padding:5%;
-    color:#011f4b;
+    text-align: center;
 
 }
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5%;
+    color: #011f4b;
+
+}
+
 /*Activities Times & Info*/
-#times{
+#times {
     background-image: url("../images/sunset-sailing2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,28 +227,125 @@ h2 {
 
 #times h2 {
     color: #011f4b;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
+
 #times h3 {
     color: #011f4b;
-    padding:10px 0px 5px;
+    padding: 10px 0px 5px;
 }
-/*Contact Boxes*/
-.contact-us {
+.activities-contact-button {
+    margin:auto;
+}
+
+/*Contact Header*/
+.contact-us h2 {
+    color: #fafafa;
+    font-weight: 600;    
     background-color: #011f4b;
-    color:#fafafa;
-    font-weight: 600;
-    height: 200px;
+    text-align: center;   
+    padding:10px;
 }
+
+/*Contact Form*/
+#contact-section {
+    background-color: #b3cde0;
+    width:100%;
+    padding: 15px 0 15px 0;
+}
+
 .flex-box {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.contact-box {
-    background-color: #011f4b;
+
+.flex-form {
+    background-color: #fafafa;
+    border:1px solid #3a3a3a;
+    width: 40%;
+    height:115%;
+    border-radius: 20%;
+    margin:auto;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 60%)
 }
+
+.form-item {
+     margin:5px 5px;
+     font-size: large;
+}
+
+.form-item-radio {
+    max-width:200px;
+    justify-content: flex-start;
+    margin:05px 5px;
+}
+#name {
+    outline:1px solid #3a3a3a;
+    padding-bottom:5px;
+}
+#surname {
+    outline:1px solid #3a3a3a;
+    padding-bottom:5px;
+}
+#email {
+    outline:1px solid #3a3a3a;
+    padding-bottom:5px;
+}
+#message {
+    outline:1px solid #3a3a3a;
+    padding-bottom:5px;
+}
+.flex-form p {
+    font-weight: bold;
+}
+textarea {
+    height: 150px;
+    padding:10px 20px;
+    margin:5px;
+    box-sizing: border-box;
+
+}
+.contact-button {
+    margin-top: 20px;
+    border-radius: 7px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #011f4b;
+    color: #fafafa;
+    display: block;
+}
+.contact-button:hover {
+    background-color: #fafafa;
+    color: #011f4b;
+}
+
+.thank-you {
+    font-size: 200%;
+    color:#011f4b;
+    text-align: center;
+
+}
+.in-touch {
+    font-size:150%;
+    color:#011f4b;
+    text-align: center;
+}
+.thank-you-image {
+    background-color: #b3cde0;
+    height: 600px;
+    max-width: 100%;
+    background-image:url(../images/wild-geese.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.thank-you-text {
+    padding-top:260px;
+    padding-left:200px;
+}
+
 /* Medium screens */
 @media all and (max-width: 800px) {
     .navigation {
