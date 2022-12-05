@@ -332,7 +332,7 @@ h3 {
     margin: 05px 5px;
 }
 
-#name {
+#first-name {
     outline: 1px solid #3a3a3a;
     padding-bottom: 5px;
 }
@@ -426,5 +426,9 @@ textarea {
         clear: both;
         height: 175px;
         padding: 0;
+    }
+    #about-us {
+        width:95%;
+        height:100px;
     }
 }
