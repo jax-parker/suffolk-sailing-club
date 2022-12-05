@@ -53,7 +53,7 @@ h2 {
 
 /*Navigation bar*/
 #navbar {
-    
+
     position: sticky;
     top: 0;
     width: 100%;
@@ -237,24 +237,49 @@ h2 {
     padding: 10px 0px 5px;
 }
 
+.activities-contact-box {
+    padding-top:20px;
+}
 .activities-contact-button {
-    padding: 5px 0 5px 0;
-    margin: auto;
+    margin:auto;
+    border-radius: 7px;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #011f4b;
+    color: #fafafa;
+    display: block;
+}
+
+.activities-contact-button:hover {
+    background-color: #fafafa;
+    color: #011f4b;
+}
+
+.video-box-title {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top:20px;
+    color: #011f4b;
+    font-weight: bolder;
 }
 
 .video-box {
-    position:relative;
-    width:80%;
-    padding-bottom:30%;
-    height:0;
+    position: relative;
+    width: 53%;
+    padding-bottom: 30%;
+    height: 0;
+    margin: auto;
 }
+
 .video-box video {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    margin:auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
 }
 
 /*Contact Header*/
