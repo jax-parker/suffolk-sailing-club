@@ -15,7 +15,7 @@ body {
 
 /*headings and logo*/
 h1,
-h2 {
+h2 h3 {
     font-family: Roboto Condensed, sans-serif;
     letter-spacing: 3px;
     color: #011f4b;
@@ -249,6 +249,9 @@ h2 {
     background-color: #011f4b;
     color: #fafafa;
     display: block;
+    width:fit-content;
+    text-decoration: none;
+    font-family: Roboto Condensed, sans-serif;
 }
 
 .activities-contact-button:hover {
@@ -263,6 +266,7 @@ h2 {
     padding-top:20px;
     color: #011f4b;
     font-weight: bolder;
+    font-family: Roboto, sans-serif;
 }
 
 .video-box {
