@@ -361,7 +361,6 @@ textarea {
     padding: 10px 20px;
     margin: 5px;
     box-sizing: border-box;
-
 }
 
 .contact-button {
@@ -380,11 +379,11 @@ textarea {
     color: #011f4b;
 }
 
+/*Thank You Page*/
 .thank-you {
     font-size: 200%;
     color: #011f4b;
     text-align: center;
-
 }
 
 .in-touch {
@@ -412,6 +411,7 @@ textarea {
     .flex-container {
         /* When on medium sized screens, we center it by evenly distributing empty space around items */
         justify-content: space-around;
+        margin-left:2px;
     }
 }
 
@@ -420,6 +420,7 @@ textarea {
     .flex-container {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: column;
+        margin-left:2px;
     }
     #times div {
         width: 100%;
