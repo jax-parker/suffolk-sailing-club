@@ -422,9 +422,12 @@ textarea {
         flex-direction: column;
         margin-left: 2px;
     }
-
+#logo {
+    padding-left:5px;
+}
     #logo-name {
         font-size: 210%;
+        padding-left:0;
     }
 
     #strapline {
