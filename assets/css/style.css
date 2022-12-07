@@ -262,7 +262,13 @@ h3 {
     background-color: #1A64A4;
     color: #152E67;
 }
-
+.button-space {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.footer-space {
+    padding-top:30px;
+}
 .video-box-title {
     text-align: center;
     width: 100%;
@@ -322,15 +328,16 @@ h3 {
 .flex-form {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: stretch;
     align-items: center;
-    
    
 }
 
 .form-item {
     margin: 5px 5px;
-    font-size: large;
+    font-size: 100%;
+    width:200%;
+    
 }
 
 .form-item-radio {
