@@ -19,7 +19,7 @@ h2,
 h3 {
     font-family: Roboto Condensed, sans-serif;
     letter-spacing: 3px;
-    color: #011f4b;
+    color: #152E67;
 }
 
 #header-box {
@@ -33,10 +33,8 @@ h3 {
 
 #logo {
     width: 100px;
-    height: 100px;
     float: left;
     padding-left: 30px;
-    margin-top: 5px;
 }
 
 #logo-name {
@@ -44,7 +42,7 @@ h3 {
     font-size: 300%;
     padding-left: 20px;
     margin-top: 50px;
-    color: #011f4b;
+    color: #152E67;
 }
 
 #strapline {
@@ -61,11 +59,12 @@ h3 {
 }
 
 #menu {
-    font-size: 110%;
+    font-size: 130%;
     text-align: center;
     letter-spacing: 3px;
-    background-color: #b3cde0;
+    background-color: #3493D0;
     padding: 10px;
+  
 }
 
 #menu li {
@@ -76,15 +75,17 @@ h3 {
 
 #menu a {
     text-decoration: none;
-    color: #011f4b;
+    color: #fff;
+    font-weight: bold;
+    font-size:130%
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #011f4b;
+    border-bottom: 1px solid #152E67;
 }
 
 .active {
-    border-bottom: 1px solid #011f4b;
+    border-bottom: 1px solid #152E67;
 }
 
 /*Welcome Image & Text*/
@@ -121,7 +122,7 @@ h3 {
 
 /*About us Title Box*/
 #about-us {
-    background-color: #011f4b;
+    background-color: #152E67;
     height: 100px;
     width: 100%;
     padding: 20px;
@@ -131,19 +132,21 @@ h3 {
     color: #fff;
     margin-top: 20px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .info-sub-header {
     color: #fff;
     margin-bottom: 20px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 /*Flex Container for Info Section*/
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: #011f4b;
+    background-color: #152E67;
 }
 
 .flex-container>div {
@@ -167,22 +170,22 @@ h3 {
 
 #hobie2 {
     height: 120%;
-    background-color: #011f4b
+    background-color: #152E67;
 }
 
 #changing-room {
     height: 120%;
-    background-color: #011f4b
+    background-color: #152E67;
 }
 
 #boat-storage {
     height: 120%;
-    background-color: #011f4b
+    background-color:#152E67;
 }
 
 #member-canoe {
     height: 120%;
-    background-color: #011f4b
+    background-color: #152E67;
 }
 
 /*Footer Syling*/
@@ -199,7 +202,7 @@ h3 {
     font-size: 300%;
     margin: 1%;
     padding: 5%;
-    color: #011f4b;
+    color: #152E67;
 
 }
 
@@ -215,7 +218,7 @@ h3 {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(246, 250, 250, 0.6);
+    background-color: rgba(246, 250, 250, 0.8);
     width: 25%;
     height: 300px;
     float: left;
@@ -226,28 +229,28 @@ h3 {
 }
 
 #times h2 {
-    color: #011f4b;
+    color: #152E67;
     padding-bottom: 4px;
 }
 
 #times h3 {
-    color: #011f4b;
+    color: #152E67;
     padding: 5px 0px 5px;
 }
 
 /*Contact button & Kayak Video*/
 
-.activities-contact-box {
+.contact-box {
     padding-top: 20px;
 }
 
-.activities-contact-button {
+.contact-button {
     margin: auto;
     border-radius: 7px;
     padding: 5px 20px;
     text-align: center;
-    font-size: 100%;
-    background-color: #011f4b;
+    font-size: 200%;
+    background-color: #152E67;
     color: #fafafa;
     display: block;
     width: fit-content;
@@ -255,9 +258,9 @@ h3 {
     font-family: Roboto Condensed, sans-serif;
 }
 
-.activities-contact-button:hover {
-    background-color: #fafafa;
-    color: #011f4b;
+.contact-button:hover {
+    background-color: #1A64A4;
+    color: #152E67;
 }
 
 .video-box-title {
@@ -265,10 +268,10 @@ h3 {
     width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
-    color: #011f4b;
+    color: #152E67;
     font-weight: bolder;
     font-family: Roboto, sans-serif;
-    font-size: larger;
+    font-size: 150%;
 }
 
 .video-box {
@@ -290,25 +293,25 @@ h3 {
 
 /*Contact Header*/
 .contact-us h2 {
-    color: #fafafa;
+    color: #152E67;
     font-weight: 600;
-    background-color: #011f4b;
+    background-color: whitesmoke;
     text-align: center;
     padding: 10px;
+    letter-spacing: 3px;
 }
 
 /*Contact Form*/
 #contact-section {
-    background-color: #b3cde0;
+    background-color: #3493D0;
     width: 100%;
     padding: 15px 0 15px 0;
+    height: 700px;
 }
 
 .flex-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .flex-form {
@@ -363,32 +366,16 @@ textarea {
     box-sizing: border-box;
 }
 
-.contact-button {
-    margin-top: 20px;
-    border-radius: 7px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #011f4b;
-    color: #fafafa;
-    display: block;
-}
-
-.contact-button:hover {
-    background-color: #fafafa;
-    color: #011f4b;
-}
-
 /*Thank You Page*/
 .thank-you {
     font-size: 200%;
-    color: #011f4b;
+    color:#152E67;
     text-align: center;
 }
 
 .in-touch {
     font-size: 150%;
-    color: #011f4b;
+    color: #152E67;
     text-align: center;
 }
 
