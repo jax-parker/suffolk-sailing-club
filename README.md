@@ -122,13 +122,14 @@ The two main colours used are Dark Blue #152E67 and a Light Blue #3493D0.  These
 #### Typography
 The headers on all pages throughout the Website are using the **Roboto Condensed** font while the main text is using the **Roboto** font. These were chosen as a complimentary pair using Fontpair (https://www.fontpair.co/all) which recommended them a good match.
 #### Imagery
-The client wanted the logo to be recognisable on any media site and was keen for it to be in the header for each page. The photos were chosen to match the text and either provide visual information about the clubs facilities or to entice new members to the club. Photos were sourced from the following:<br>
+The client wanted the logo to be recognisable on any media site and was keen for it to be in the header for each page and as the favicon on the address tab. The photos were chosen to match the text and either provide visual information about the clubs facilities or to entice new members to the club. Photos were sourced from the following:<br>
 Logo - https://www.hiclipart.com/free-transparent-background-png-clipart-dnupb<br>
 Hero Image - https://pixabay.com/photos/wild-geese-birds-lake-geese-3379677/<br>
 The Lakes & Membership - Home photos taken on my iPhone 8.<br>
 Facilities - https://pixabay.com/photos/yellow-changing-room-4719246/<br>
 Storage - https://pixabay.com/photos/boat-shelf-florida-usa-vacations-3746219/<br>
 Activity Icons - https://fontawesome.com/<br>
+Favicon - https://favicon.io/<br>
 
 #### Wireframes
 Home Page<br>
