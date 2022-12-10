@@ -1,108 +1,286 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Site Logo](assets/favicons/apple-touch-icon.png)
+## Table of Contents
+* [Purpose](#Purpose)
+* [User Experience Design (UX)](#User-Experience-Design)
+  * [User stories](#User-Stories)
+    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+    * [Returning Visitor Goals](#Returning-Visitor-Goals)
+    * [Frequent User Goals](#Frequent-User-Goals)
+  * [Structure](#Structure)
+  * [Design](#Design)
+    * [Colour Scheme](#Colour-Scheme)
+    * [Typography](#Typography)
+    * [Imagery](#Imagery)
+    * [Wireframes](#Wireframes)
+    * [Features](#Features)
+    * [Existing Features](#Existing-Features)
+    * [Future Features](#Features-Left-to-Implement)
+* [Technologies](#Technologies)
+* [Testing](#Testing)
+    * [Test Strategy](#Test-Strategy)
+      * [Summary](#Summary)
+      * [Validation](#Validation-Test-Cases)
+    * [Test Results](#Test-Results)
+    * [Testing Issues](#Issues-and-Resolutions-to-issues-found-during-testing)
+* [Deployment](#Deployment)
+    * [Project Creation](#Project-Creation)
+    * [GitHub Pages](#Using-Github-Pages)
+* [Credits](#Credits)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgements](#Acknowledgements)
+  
 
-Welcome jax-parker,
+# Project 1 Suffolk Sailing Club
+## Purpose
+This Website was created for the sole purpose of completing the first project for the Code Institute's Full Stack Developer course.
+It was built using the knowledge gained from the previous HTML and CSS courses. A full list of technologies used can be found in the technologies section of this document.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The live website can be found [here](https://jax-parker.github.io/suffolk-sailing-club/).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Suffolk Sailing Club Responsive Website
 
-## Gitpod Reminders
+![Website Mock Up](assets/images/readme-images/mock-up.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Suffolk Sailing Club website is a fictitious site designed for the owners of a privately owned lake offering membership to a club which provides facilities for small sailing boats, kayaks and paddleboards. The client wants to promote the club to increase membership numbers and provide information to current members regarding lessons, clubs and social activities. The site is targeted at anyone who is interested in amateur water sports who would like to take up or continue with this hobby and also improve their skills via the lessons offered. It is also encouraging members to join the social events as a way to engage with other members of the club.
 
-`python3 -m http.server`
+***
+## User Experience Design
 
-A blue button should appear to click: _Make Public_,
+### User stories
+#### First Time Visitor Goals
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.
+* As a First Time user, I want to be able to easily navigate throughout the site to find content.
+* As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.
+* As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms.
+* As a First Time user, I want to see what activities and social events the club holds.
+* As a First Time user, I want to contact the club to apply for membership or ask for more information.
+* As a First Time user, I want to be sure my details have been submitted and I will receive a reply.
+#### Returning Visitor Goals
+* As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop.
+* As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most.
+* As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
+* As a Returning user, I want to see what clubs, lessons or social events are being organised.
+* As a Returning user, I want to contact the club so I can request more information.
+* As a Returning user, I want to be sure my details have been submitted and I will receive a reply.
+#### Frequent Visitor Goals
+* As a Frequent user, I want to check to see if there are any new upcoming events or club activities.
+* As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them.
+* As a Frequent user, I want to be sure my details have been submitted and I will receive a reply.
+### Structure
+All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily.
+The Nav Menu will be sticky on all devices to avoid the user having to scroll to the top of the page to navigate somewhere else.
+The purpose of this is to fulfil user story:
+> As a First Time user, I want to be able to easily navigate throughout the site to find content.<br>
+> As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most.
 
-Another blue button should appear to click: _Open Browser_.
+The Home Page will contain small sections of information about the club.
+The purpose of this is to fulfil the user stories:
+> As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
+> As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
+images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
+The purpose of this is to fulfil the user stories:
+> As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
+> As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop.
 
-A blue button should appear to click: _Make Public_,
+All pages will contain a Footer Element with a Contact Button (activities page before the video) and Social Media Icons. The icons used will be
+from font-awesome. The aim of the Footer elements are to fulfil user stories:
+> As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms.<br>
+> As a First Time user, I want to contact the club to apply for membership or ask for more information.<br>
+> As a Returning user, I want to contact the club so I can request more information.<br>
+> As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them.
 
-Another blue button should appear to click: _Open Browser_.
+The Home Page will contain a hero image and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
+> As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
+> As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
+> As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The Activities Page will contain information on upcoming events run by the club. There will be a contact us button at the bottom of the page.
+The purpose of this is to fulfil user stories:
+> As a First Time user, I want to see what activities and social events the club holds.<br>
+> As a Returning user, I want to see what clubs, lessons or social events are being organised.<br>
+> As a Frequent user, I want to check to see if there are any new club activities.
 
-To log into the Heroku toolbelt CLI:
+The Contact Us Page will contain a simple form for the user to contact the club.
+The purpose of this is to fulfil the user stories:
+> As a First Time user, I want to contact the club to apply for membership or ask for more information.<br>
+> As a Returning user, I want to contact the club so I can request more information.<br>
+> As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The Thank You Page will contain a thank you message to let the user know the club has received their details and will get back to them.
+The purpose of this is to fulfil the user stories:
+> As a First Time user, I want to be sure my details have been submitted and I will receive a reply.<br>
+> As a Returning user, I want to be sure my details have been submitted and I will receive a reply.<br>
+> As a Frequent user, I want to be sure my details have been submitted and I will receive a reply.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Design
+#### Colour Scheme
+The two main colours used are Dark Blue #152E67 and a Light Blue #3493D0.  These colours were both matched to the club logo using the dropper in Paint. The third shade of blue in the logo, #1A64A4 was used for the hover colour on the Contact Us button. The blue was chosen to represent the subject of the water and give a relaxed feel.
+![image of the logo; a sailing boat in three shades of blue](assets/favicons/apple-touch-icon.png)
+#### Typography
+The headers on all pages throughout the Website are using the **Roboto Condensed** font while the main text is using the **Roboto** font. These were chosen as a complimentary pair using Fontpair (https://www.fontpair.co/all) which recommended them a good match.
+#### Imagery
+The client wanted the logo to be recognisable on any media site and was keen for it to be in the header for each page. The photos were chosen to match the text and either provide visual information about the clubs facilities or to entice new members to the club. Photos were sourced from the following:<br>
+Logo - https://www.hiclipart.com/free-transparent-background-png-clipart-dnupb<br>
+Hero Image - https://pixabay.com/photos/wild-geese-birds-lake-geese-3379677/<br>
+The Lakes & Membership - Home photos taken on my iPhone 8.<br>
+Facilities - https://pixabay.com/photos/yellow-changing-room-4719246/<br>
+Storage - https://pixabay.com/photos/boat-shelf-florida-usa-vacations-3746219/<br>
+Activity Icons - https://fontawesome.com/<br>
 
-------
+#### Wireframes
+Home Page<br>
+![Home Page Wireframe](assets/wireframes/wireframe-home-page.jpg)<br>
+About Page<br>
+![Activities Page Wireframe](assets/wireframes/wireframe-activities-page.jpg)<br>
+Contact Page<br>
+![Contact Page Wireframe](assets/wireframes/wireframe-contact-page.jpg)<br>
+Thank You Page<br>
+![Thank You Page Wireframe](assets/wireframes/wireframe-thankyou-page.jpg)<br>
 
-## Release History
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Existing Features
+- The website has 3 main pages accessible to the user which include the Homepage, Activities Page and Contact Us Page. There is also a thank you page which only shows on submission of the contact form.
+All pages include the following features:
+- Logo, Club name and strapline. They show at the top of each page to ensure the user knows they are on the same website and to enforce recognition of the logo and club font/colour.
+- Navigation bar. The menu appears on all three pages and allows users to move through the different pages of the website easily as a sticky positioning has been implemented to avoid scrolling back to the top of the page ensuring a good user experience across all pages.
+- Footer. The footer contains 4 recognisable icons for social media sites; Facebook, Twitter, YouTube and Instagram. Each one opens on to a new window.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Features Left to Implement
+- Users details could go to a database for members list. This feature was not implemented as part of the initial release but could be addressed in a future.
+- Gallery page could be added to show images of past events at the club.
+- Add a booking page so members could book lessons, places at social events or club places.
+***
+## Technologies
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* HTML
+	* This project uses HTML as the main language used to complete the structure of the Website.
+* CSS
+	* This project uses custom written CSS to style the Website.
+* [Font Awesome](https://fontawesome.com/)
+	* Font awesome Icons are used for the Social media links contained in the Footer section of the website and club, lesson & social events on the Activities page.
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used throughout the project to import the *Roboto Condensed* and *Roboto* fonts.
+* [GitHub](https://github.com/)
+	* GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [Git](https://git-scm.com/)
+	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* This was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+* [MS PAINT](https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9)
+    * The dropper tool is this program was used against the Site logo to determine the exact shades of blue to be used.
+* [Favicon](https://favicon.io/)
+    * Favicon.io was used to make the site favicon
+* [UI.Dev](https://ui.dev/amiresponsive)
+    * Multi Device Website Mockup Generator was used to create the Mock up image in this README
+***
+## Testing
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Test Strategy
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Summary
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Testing is required on Project-1 – Suffolk Sailing Club Responsive Website.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+No elements should overlap another container div.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+All links to external websites (social media sites) must open in a new browser.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Testing of form validation will also be required to ensure the correct inputs are taken, that all fields are required and thank you page appears on submission.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The live Project can be found [here](https://jax-parker.github.io/suffolk-sailing-club/).</br>
+#### Validation Test Cases
+![Test Cases](assets/images/readme-images/validation-tests.jpg)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Test Results
+All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
+CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
+Website was tested by running locally and tested on the deployed version. No differences found.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* As a First Time user, I want to easily understand the main purpose of the site and learn more about the club:
+* As a Returning user, I want to reread information about the club I may have forgotten or not been sure of:
+- Testing was performed to ensure Club information was displayed on the Home Page.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* As a First Time user, I want to be able to easily navigate throughout the site to find content:
+* As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most:
+- Testing was performed on all Navigation links to ensure users can easily navigate the Website.
 
-------
+* As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop:
+* As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop:
+- Testing was performed to ensure the Website was responsive on all devices.
 
-## FAQ about the uptime script
+* As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms:
+- Testing was performed to ensure Social Media links had been added to the footer of each page and when clicked on, opened in a new window.
 
-**Why have you added this script?**
+* As a First Time user, I want to see what activities and social events the club holds:
+* As a Returning user, I want to see what clubs, lessons or social events are being organised:
+* As a Frequent user, I want to check to see if there are any new upcoming events or club activities:
+- Testing was performed to ensure the Activities page clearly showed each activity, was easily readable and the video played correctly and the contact us button redirected to the form.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* As a First Time user, I want to contact the club to apply for membership or ask for more information:
+* As a Returning user, I want to contact the organisation so I can request more information:
+* As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them:
+- Testing was performed to ensure that all Contact Us buttons were functioning correctly, that all form inputs were required and the submission form directed to the thank you page.
 
-**How will this affect me?**
+* As a First Time user, I want to be sure my details have been submitted and I will receive a reply:
+* As a Returning user, I want to be sure my details have been submitted and I will receive a reply:
+* As a Frequent user, I want to be sure my details have been submitted and I will receive a reply:
+- Testing was done to ensure the thank you page was clear and stated a reply will be soon.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Issues and Resolutions to issues found during testing
+* Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
+* Responsiveness on medium size screen was misaligned. This was resolved by adding css styling to the Medium Screens section.
+* Video on Activities page was not showing on live website. This was resolved by removing a backslash from the source address.
+* Hero image disappeared from screen on homepage. This was resolved by adding background-size:cover and positioning to center.
+* Flex boxes on Homepage would not align properly. This was resolved by more studying of flex boxes, how they worked and playing the Zombie Flex game.
+* Spelling mistakes were found when proof reading, these were corrected.
+* Background on Activities page was overpowering the text. This was fixed by increasing the opacity to 0.8.
+* Contact form section was getting lost by other divs overpowering colour. This was fixed by changing colors so the form stood out more.
+* Contact form was not bold enough. This was resolved by adding css styling to the form to ensure it was properly visible.
+* Thank you page text was not showing properly on smaller screens. This was resolved by by adding css styling and a translucent background on smaller screens.
+* Logo alignment. The boat was sitting lower than the title and looked incorrect. This was resolved by css styling on all media sizes.
+***
+## Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Project Creation
+The project was started by opening my Github profile page, clicking on repositories and new. I chose the Code-Institute-Org/gitpod-full-template from my template drop down box and named my repository Suffolk-Sailing-Club. I checked the Public radio button and create repository. I clicked on the new repository, then clicked gitpod to open in a new workspace.
 
-**So….?**
+The following commands were used throughout the project:
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* git add - Was used to add changes to the local repository.
+* git commit -m *commit message explaining the updates* - This command was used to commit changes to the local repository.
+* git push - This command is used to push all commited changes to the GitHub repository.
 
-**Can I opt out?**
+### Using Github Pages
+1. Navigate to the GitHub [Repository:](https://github.com/jax-parker/suffolk-sailing-club)
+1. Click the 'Settings' Tab.
+1. Click on 'Pages.
+1. Select 'Main' as the branch.
+1. Click the Save button.
+1. Click on the link to go to the live deployed page. [Live Page:](https://jax-parker.github.io/suffolk-sailing-club/)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+***
+## Credits
+### Code
+The html and css code was learned from the Code Institute Full Stack Software Developer Course.
+### Content
+The content of this software was created by Jakki Parker.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Media
+The photos and video used in this video are property of Jakki Parker or under free license from the websites stated.
+The kayaking video on the activities page is under free license from the website stated.
 
-**Anything more?**
+### Acknowledgements
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+I'd like to thank my mentor Ronan McClelland for his guidance throughout my project.<br>
+Thanks to family and friends who tested the site on iPhones, Samsung and Firefox as I don't own a Mac.<br>
