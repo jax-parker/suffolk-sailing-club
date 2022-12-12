@@ -210,12 +210,16 @@ The live Project can be found [here](https://jax-parker.github.io/suffolk-sailin
 To validate web accessibility the webiste was tested on [Wave](https://wave.webaim.org/). No errors were found. Nine alerts were shown but were for items such as an H4 following an H2 instead of an H3 but I decided not to change the CSS.<br>
 ![Test On Wave](assets/readme-images/wave-accessibility.jpg)<br>
 
-### Test Results
+### Validation Testing
 All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
 ![W3C HTML Test](assets/readme-images/w3c-checker.jpg)<br>
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
 Website was tested by running locally and tested on the deployed version. No differences found.
 ![W3C CSS Test](assets/readme-images/w3c-css-checker.jpg)<br>
+Website was run through Google Developer Tools - Lighthouse with the following scores.<br>
+![Lighthouse Test](assets/readme-images/lighthouse-test.jpg)<br>
+
+### Function Testing
 * As a First Time user, I want to easily understand the main purpose of the site and learn more about the club:
 * As a Returning user, I want to reread information about the club I may have forgotten or not been sure of:
 - **Testing was performed to ensure Club information was displayed on the Home Page. - Successful**<br>
