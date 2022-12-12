@@ -332,7 +332,7 @@ h3 {
     margin: 18px 70px;
     font-size: 100%;
     width: 80%;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .form-item-radio {
@@ -371,6 +371,9 @@ textarea {
     padding: 10px 20px;
     margin: 5px;
     box-sizing: border-box;
+}
+.button-space {
+    padding:0;
 }
 
 /*Thank You Page*/
@@ -434,6 +437,19 @@ textarea {
         font-size: 100%;
         width: 80%;
         font-weight: bold;
+    }
+    .thank-you-text {
+        padding-top: 270px;
+    }
+
+    .thank-you {
+        font-size: 120%;
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .in-touch {
+        font-size: 100%;
+        background-color: rgba(255, 255, 255, 0.3);
     }
 }
 
@@ -516,7 +532,7 @@ textarea {
     }
 
     .thank-you-text {
-        padding-top: 90px;
+        padding-top: 150px;
     }
 
     .thank-you {
@@ -541,5 +557,8 @@ textarea {
         font-size: 100%;
         width: 80%;
         font-weight: bold;
+    }
+    .button-space {
+        padding-top:0;
     }
 }
