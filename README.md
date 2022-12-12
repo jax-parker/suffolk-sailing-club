@@ -124,10 +124,11 @@ The purpose of this is to fulfil the user stories:
 
 ### Design
 #### Colour Scheme
-The two main colours used are Dark Blue #152E67 and a Light Blue #3493D0.  These colours were both matched to the club logo using the dropper in Paint. The third shade of blue in the logo, #1A64A4 was used for the hover colour on the Contact Us button. The blue was chosen to represent the subject of the water and give a relaxed feel.
+The two main colours used are Dark Blue #152E67 and a Light Blue #3493D0.  These colours were both matched to the club logo using the dropper in Paint. The third shade of blue in the logo, #1A64A4 was used for the hover colour on the Contact Us button. The blue was chosen to represent the subject of the water and give a relaxed feel.<br>
 ![image of the logo; a sailing boat in three shades of blue](assets/favicons/apple-touch-icon.png)
 #### Typography
 The headers on all pages throughout the Website are using the **Roboto Condensed** font while the main text is using the **Roboto** font. These were chosen as a complimentary pair using Fontpair (https://www.fontpair.co/all) which recommended them a good match.
+![Fonts Used](assets/readme-images/roboto-font.jpg)
 #### Imagery
 The client wanted the logo to be recognisable on any media site and was keen for it to be in the header for each page and as the favicon on the address tab. The photos were chosen to match the text and either provide visual information about the clubs facilities or to entice new members to the club. Photos were sourced from the following:<br>
 
