@@ -40,7 +40,7 @@ The live website can be found [here](https://jax-parker.github.io/suffolk-sailin
 
 ## Suffolk Sailing Club Responsive Website
 
-![Website Mock Up](assets/images/readme-images/mock-up.jpg)
+![Website Mock Up](assets/readme-images/screen-mock-up.jpg)
 
 The Suffolk Sailing Club website is a fictitious site designed for the owners of a privately owned lake offering membership to a club which provides facilities for small sailing boats, kayaks and paddleboards. The client wants to promote the club to increase membership numbers and provide information to current members regarding lessons, clubs and social activities. The site is targeted at anyone who is interested in amateur water sports who would like to take up or continue with this hobby and also improve their skills via the lessons offered. It is also encouraging members to join the social events as a way to engage with other members of the club.
 
@@ -69,21 +69,44 @@ The Suffolk Sailing Club website is a fictitious site designed for the owners of
 * As a Frequent user, I want to be sure my details have been submitted and I will receive a reply.
 ### Structure
 All Pages will contain a Navigation menu at the top of the Webpage that directs them to a new Page to easily allow users to Navigate the site easily.
-The Nav Menu will be sticky on all devices to avoid the user having to scroll to the top of the page to navigate somewhere else.
+The Nav Menu will be sticky on all devices to avoid the user having to scroll to the top of the page to navigate somewhere else. It will also be underlined on the active page to remind the user where they are.
 The purpose of this is to fulfil user story:
 > As a First Time user, I want to be able to easily navigate throughout the site to find content.<br>
 > As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most.
+![Navigation Bar](assets/readme-images/nav-bar.jpg)
 
+The Home Page will contain a hero image and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
+> As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
+> As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
+> As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
 The Home Page will contain small sections of information about the club.
+![Home Page](assets/readme-images/home-page.jpg)
+
 The purpose of this is to fulfil the user stories:
 > As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
 > As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
+![Club Information](assets/readme-images/club-info.jpg)
 
-All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
-images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
+The Activities Page will contain information on upcoming events run by the club. There will be a contact us button at the bottom of the page.
+The purpose of this is to fulfil user stories:
+> As a First Time user, I want to see what activities and social events the club holds.<br>
+> As a Returning user, I want to see what clubs, lessons or social events are being organised.<br>
+> As a Frequent user, I want to check to see if there are any new club activities.
+![Activities](assets/readme-images/activities.jpg)
+
+The Contact Us Page will contain a simple form for the user to contact the club.
 The purpose of this is to fulfil the user stories:
-> As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
-> As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop.
+> As a First Time user, I want to contact the club to apply for membership or ask for more information.<br>
+> As a Returning user, I want to contact the club so I can request more information.<br>
+> As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them.
+![Contact Form](assets/readme-images/contact-form.jpg)
+
+The Thank You Page will contain a thank you message to let the user know the club has received their details and will get back to them.
+The purpose of this is to fulfil the user stories:
+> As a First Time user, I want to be sure my details have been submitted and I will receive a reply.<br>
+> As a Returning user, I want to be sure my details have been submitted and I will receive a reply.<br>
+> As a Frequent user, I want to be sure my details have been submitted and I will receive a reply.
+![Thank You Page](assets/readme-images/thank-you-page.jpg)
 
 All pages will contain a Footer Element with a Contact Button (activities page before the video) and Social Media Icons. The icons used will be
 from font-awesome. The aim of the Footer elements are to fulfil user stories:
@@ -91,29 +114,13 @@ from font-awesome. The aim of the Footer elements are to fulfil user stories:
 > As a First Time user, I want to contact the club to apply for membership or ask for more information.<br>
 > As a Returning user, I want to contact the club so I can request more information.<br>
 > As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them.
+![Footer](assets/readme-images/footer.jpg)
 
-The Home Page will contain a hero image and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
-> As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
+All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
+images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
+The purpose of this is to fulfil the user stories:
 > As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
-> As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
-
-The Activities Page will contain information on upcoming events run by the club. There will be a contact us button at the bottom of the page.
-The purpose of this is to fulfil user stories:
-> As a First Time user, I want to see what activities and social events the club holds.<br>
-> As a Returning user, I want to see what clubs, lessons or social events are being organised.<br>
-> As a Frequent user, I want to check to see if there are any new club activities.
-
-The Contact Us Page will contain a simple form for the user to contact the club.
-The purpose of this is to fulfil the user stories:
-> As a First Time user, I want to contact the club to apply for membership or ask for more information.<br>
-> As a Returning user, I want to contact the club so I can request more information.<br>
-> As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them.
-
-The Thank You Page will contain a thank you message to let the user know the club has received their details and will get back to them.
-The purpose of this is to fulfil the user stories:
-> As a First Time user, I want to be sure my details have been submitted and I will receive a reply.<br>
-> As a Returning user, I want to be sure my details have been submitted and I will receive a reply.<br>
-> As a Frequent user, I want to be sure my details have been submitted and I will receive a reply.
+> As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop.
 
 ### Design
 #### Colour Scheme
@@ -123,6 +130,7 @@ The two main colours used are Dark Blue #152E67 and a Light Blue #3493D0.  These
 The headers on all pages throughout the Website are using the **Roboto Condensed** font while the main text is using the **Roboto** font. These were chosen as a complimentary pair using Fontpair (https://www.fontpair.co/all) which recommended them a good match.
 #### Imagery
 The client wanted the logo to be recognisable on any media site and was keen for it to be in the header for each page and as the favicon on the address tab. The photos were chosen to match the text and either provide visual information about the clubs facilities or to entice new members to the club. Photos were sourced from the following:<br>
+
 Logo - https://www.hiclipart.com/free-transparent-background-png-clipart-dnupb<br>
 Hero Image - https://pixabay.com/photos/wild-geese-birds-lake-geese-3379677/<br>
 The Lakes & Membership - Home photos taken on my iPhone 8.<br>
@@ -151,7 +159,7 @@ All pages include the following features:
 - Footer. The footer contains 4 recognisable icons for social media sites; Facebook, Twitter, YouTube and Instagram. Each one opens on to a new window.
 
 ### Features Left to Implement
-- Users details could go to a database for members list. This feature was not implemented as part of the initial release but could be addressed in a future.
+- Users details could go to a database for members list. 
 - Gallery page could be added to show images of past events at the club.
 - Add a booking page so members could book lessons, places at social events or club places.
 ***
@@ -186,8 +194,6 @@ All pages include the following features:
 
 #### Summary
 
-Testing is required on Project-1 – Suffolk Sailing Club Responsive Website.
-
 As this project is static and contains no back-end functionality, the testing performed will be on the visual effects and layout of the Website. Testing to be done on at least three web browsers and all screen sizes.
 
 No elements should overlap another container div.
@@ -200,42 +206,44 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 The live Project can be found [here](https://jax-parker.github.io/suffolk-sailing-club/).</br>
 #### Validation Test Cases
-![Test Cases](assets/images/readme-images/validation-tests.jpg)
+To validate web accessibility the webiste was tested on [Wave](https://wave.webaim.org/). No errors were found. Nine alerts were shown but were for items such as an H4 following an H2 instead of an H3 but I decided not to change the CSS.<br>
+![Test On Wave](assets/readme-images/wave-accessibility.jpg)<br>
 
 ### Test Results
 All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
+![W3C HTML Test](assets/readme-images/w3c-checker.jpg)<br>
 CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
 Website was tested by running locally and tested on the deployed version. No differences found.
-
+![W3C CSS Test](assets/readme-images/w3c-css-checker.jpg)<br>
 * As a First Time user, I want to easily understand the main purpose of the site and learn more about the club:
 * As a Returning user, I want to reread information about the club I may have forgotten or not been sure of:
-- Testing was performed to ensure Club information was displayed on the Home Page.
+- **Testing was performed to ensure Club information was displayed on the Home Page. - Successful**<br>
 
 * As a First Time user, I want to be able to easily navigate throughout the site to find content:
 * As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most:
-- Testing was performed on all Navigation links to ensure users can easily navigate the Website.
+- **Testing was performed on all Navigation links to ensure users can easily navigate the Website. - Successful**
 
 * As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop:
 * As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop:
-- Testing was performed to ensure the Website was responsive on all devices.
+- **Testing was performed to ensure the Website was responsive on all devices. - Successful**
 
 * As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms:
-- Testing was performed to ensure Social Media links had been added to the footer of each page and when clicked on, opened in a new window.
+- **Testing was performed to ensure Social Media links had been added to the footer of each page and when clicked on, opened in a new window. - Successful**
 
 * As a First Time user, I want to see what activities and social events the club holds:
 * As a Returning user, I want to see what clubs, lessons or social events are being organised:
 * As a Frequent user, I want to check to see if there are any new upcoming events or club activities:
-- Testing was performed to ensure the Activities page clearly showed each activity, was easily readable and the video played correctly and the contact us button redirected to the form.
+- **Testing was performed to ensure the Activities page clearly showed each activity, was easily readable and the video played correctly and the contact us button redirected to the form. - Successful**
 
 * As a First Time user, I want to contact the club to apply for membership or ask for more information:
 * As a Returning user, I want to contact the organisation so I can request more information:
 * As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them:
-- Testing was performed to ensure that all Contact Us buttons were functioning correctly, that all form inputs were required and the submission form directed to the thank you page.
+- **Testing was performed to ensure that all Contact Us buttons were functioning correctly, that all form inputs were required and the submission form directed to the thank you page. - Successful**
 
 * As a First Time user, I want to be sure my details have been submitted and I will receive a reply:
 * As a Returning user, I want to be sure my details have been submitted and I will receive a reply:
 * As a Frequent user, I want to be sure my details have been submitted and I will receive a reply:
-- Testing was done to ensure the thank you page was clear and stated a reply will be soon.
+- **Testing was done to ensure the thank you page was clear and stated a reply will be soon. - Successful**
 
 
 ### Issues and Resolutions to issues found during testing
