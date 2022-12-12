@@ -297,4 +297,4 @@ The kayaking video on the activities page is under free license from the website
 ### Acknowledgements
 
 I'd like to thank my mentor Ronan McClelland for his guidance throughout my project.<br>
-Thanks to family and friends who tested the site on iPhones, Samsung and Firefox as I don't own a Mac.<br>
+Thanks to family and friends who tested the site on iPhones, Samsung and tablets.<br>
