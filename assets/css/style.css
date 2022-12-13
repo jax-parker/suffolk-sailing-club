@@ -553,7 +553,10 @@ textarea {
     .form-box {
         width: 90%;
     }
-
+.form-container {
+    width:80%;
+    margin:auto;
+}
     .form-item {
         margin: 18px 20px;
         font-size: 100%;
@@ -562,7 +565,7 @@ textarea {
     }
 
     .form-item-radio {
-        margin: 18px 50px;
+        margin: 18px 20px;
         font-size: 100%;
         width: 80%;
         font-weight: bold;
