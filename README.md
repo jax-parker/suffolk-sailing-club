@@ -263,6 +263,7 @@ Website was run through Google Developer Tools - Lighthouse with the following s
 * Contact form was not bold enough. This was resolved by adding css styling to the form to ensure it was properly visible.
 * Thank you page text was not showing properly on smaller screens. This was resolved by by adding css styling and a translucent background on smaller screens.
 * Logo alignment. The boat was sitting lower than the title and looked incorrect. This was resolved by css styling on all media sizes.
+* Added a lower media of 320px and adjusted the CSS to accomodate smaller mobile screens.
 ***
 ## Deployment
 
@@ -274,6 +275,8 @@ The following commands were used throughout the project:
 * git add - Was used to add changes to the local repository.
 * git commit -m *commit message explaining the updates* - This command was used to commit changes to the local repository.
 * git push - This command is used to push all commited changes to the GitHub repository.
+
+**Git Commit Note** - to begin with my commits were all over the place and did not have any structure with more deletions than insertions but as my project progressed my commits became structured and more consise.
 
 ### Using Github Pages
 1. Navigate to the GitHub [Repository:](https://github.com/jax-parker/suffolk-sailing-club)
