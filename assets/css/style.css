@@ -371,8 +371,9 @@ textarea {
     margin: 5px;
     box-sizing: border-box;
 }
+
 .button-space {
-    padding:0;
+    padding: 0;
 }
 
 /*Thank You Page*/
@@ -437,6 +438,7 @@ textarea {
         width: 80%;
         font-weight: bold;
     }
+
     .thank-you-text {
         padding-top: 270px;
     }
@@ -557,10 +559,12 @@ textarea {
         width: 80%;
         font-weight: bold;
     }
+
     .button-space {
-        padding-top:0;
+        padding-top: 0;
     }
 }
+
 /* Smaller screens */
 @media all and (max-width: 320px) {
     .flex-container {
@@ -579,7 +583,7 @@ textarea {
 
     #logo {
         padding-right: 5px;
-        padding-top:inherit;
+        padding-top: inherit;
     }
 
     #logo-name {
@@ -600,28 +604,33 @@ textarea {
     #welcome-outer {
         height: 400px;
     }
+
     #welcome-text {
-       left: 48px;
-       right:0px;
+        left: 48px;
+        right: 0px;
     }
+
     #welcome-text h2 {
-        font-size:100%;
+        font-size: 100%;
         text-align: center;
     }
-   
+
     #menu li {
         display: inline;
         margin: 0;
         padding: 15px;
     }
-.info-header {
-    margin-top:5px;
-}
+
+    .info-header {
+        margin-top: 5px;
+    }
+
     .info-sub-header {
         font-size: 85%;
     }
+
     .flex-container>div {
-        margin:0;
+        margin: 0;
     }
 
     #times div {
@@ -634,7 +643,7 @@ textarea {
     #about-us {
         width: 95%;
         height: 100px;
-        padding:10px;
+        padding: 10px;
     }
 
     .flex-form {
@@ -644,9 +653,10 @@ textarea {
     .video-box-title {
         font-size: 90%;
     }
-   .form-box {
-    width:90%;
-   }
+
+    .form-box {
+        width: 90%;
+    }
 
     .thank-you-image {
         height: 350px;
@@ -679,7 +689,8 @@ textarea {
         width: 80%;
         font-weight: bold;
     }
+
     .button-space {
-        padding-top:0;
+        padding-top: 0;
     }
 }
