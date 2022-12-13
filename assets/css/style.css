@@ -439,6 +439,10 @@ textarea {
         font-weight: bold;
     }
 
+    .form-box {
+        width: 90%;
+    }
+
     .thank-you-text {
         padding-top: 270px;
     }
@@ -546,6 +550,10 @@ textarea {
         background-color: rgba(255, 255, 255, 0.3);
     }
 
+    .form-box {
+        width: 90%;
+    }
+
     .form-item {
         margin: 18px 20px;
         font-size: 100%;
@@ -597,7 +605,6 @@ textarea {
     }
 
     #menu {
-        font-size: 83%;
         padding: 3px;
     }
 
