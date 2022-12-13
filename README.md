@@ -51,13 +51,13 @@ The Suffolk Sailing Club website is a fictitious site designed for the owners of
 #### First Time Visitor Goals
 * As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.
 * As a First Time user, I want to be able to easily navigate throughout the site to find content.
-* As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.
+* As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.
 * As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms.
 * As a First Time user, I want to see what activities and social events the club holds.
 * As a First Time user, I want to contact the club to apply for membership or ask for more information.
 * As a First Time user, I want to be sure my details have been submitted and I will receive a reply.
 #### Returning Visitor Goals
-* As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop.
+* As a Returning user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.
 * As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most.
 * As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
 * As a Returning user, I want to see what clubs, lessons or social events are being organised.
@@ -77,7 +77,7 @@ The purpose of this is to fulfil user story:
 
 The Home Page will contain a hero image and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
 > As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
-> As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
+> As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.<br>
 > As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
 The Home Page will contain small sections of information about the club.
 ![Home Page](assets/readme-images/home-page.jpg)
@@ -119,8 +119,8 @@ from font-awesome. The aim of the Footer elements are to fulfil user stories:
 All pages will be responsive and the layouts will change dependant on screen size. This is to ensure content flow is appealing,
 images are displayed properly and that the content is not shrunk side by side, so small that it is unreadable.
 The purpose of this is to fulfil the user stories:
-> As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop.<br>
-> As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop.
+> As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.<br>
+> As a Returning user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.
 
 ### Design
 #### Colour Scheme
@@ -228,8 +228,8 @@ Website was run through Google Developer Tools - Lighthouse with the following s
 * As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most:
 - **Testing was performed on all Navigation links to ensure users can easily navigate the Website. - Successful**
 
-* As a First Time user, I want to view the website and content clearly on my mobile device, iPad or laptop:
-* As a Returning user, I want to view the website and content clearly on my mobile device, iPad or laptop:
+* As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop:
+* As a Returning user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop:
 - **Testing was performed to ensure the Website was responsive on all devices. - Successful**
 
 * As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms:
@@ -300,4 +300,4 @@ The kayaking video on the activities page is under free license from the website
 ### Acknowledgements
 
 I'd like to thank my mentor Ronan McClelland for his guidance throughout my project.<br>
-Thanks to family and friends who tested the site on iPhones, Samsung and tablets.<br>
+Thanks to family and friends who tested the site on iPhones, Samsungs, desktops and tablets.<br>

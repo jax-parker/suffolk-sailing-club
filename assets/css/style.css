@@ -124,7 +124,7 @@ h3 {
 #about-us {
     background-color: #152E67;
     height: 100px;
-    width: 100%;
+    width: 98%;
     padding: 20px;
 }
 
@@ -553,10 +553,12 @@ textarea {
     .form-box {
         width: 90%;
     }
-.form-container {
-    width:80%;
-    margin:auto;
-}
+
+    .form-container {
+        width: 80%;
+        margin: auto;
+    }
+
     .form-item {
         margin: 18px 20px;
         font-size: 100%;
@@ -576,8 +578,9 @@ textarea {
     }
 }
 
-/* Smaller screens */
+/* Mobile screens */
 @media all and (max-width: 320px) {
+
     .flex-container {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: column;
