@@ -574,7 +574,7 @@ textarea {
     }
 
     #strapline {
-        padding-top: 30px;
+        padding-top: 15px;
     }
 
     #menu {
@@ -599,24 +599,32 @@ textarea {
         margin-top: 5px;
     }
 
-    .flex-container>div {
-        margin: 0;
-    }
-
-    #about-us {
+   #about-us {
         width: inherit;
     }
 
     .video-box-title {
         font-size: 90%;
     }
-
     .form-box {
         width: 90%;
     }
-
-    .thank-you-text {
-        padding-top: 50px;
+    .form-item {
+        margin: 18px 5px 10px;
+        font-size: 100%;
+        width: 95%;
+        font-weight: bold;
+    }
+   .form-item-radio {
+    margin: 18px 5px;
+    font-size: 91%;
+   }
+  .form-container p {
+font-size: 120%;
+  }
+   .thank-you-text {
+        padding-top: 35px;
+        margin-right:10px;
     }
 
     .social-networks i {
