@@ -124,7 +124,7 @@ h3 {
 #about-us {
     background-color: #152E67;
     height: 100px;
-    width: 98%;
+    width: auto;
     padding: 20px;
 }
 
@@ -155,7 +155,7 @@ h3 {
 
 #hobie2, #changing-room, #storage, #members{
     height: 120%;
-    width: 100%;
+    width: inherit;
     background-color: #152E67;
 }
 #lakes-title, #facilities-title, #storage-title, #membership-title {
@@ -411,7 +411,10 @@ textarea {
 
     #strapline {
         padding-left: 0;
-        padding-top: 0;
+        padding-top: 20px;
+    }
+    #logo {
+        padding-bottom: inherit;
     }
 
     .flex-container {
@@ -419,7 +422,9 @@ textarea {
         justify-content: space-around;
         margin-left: 2px;
     }
-
+    .flex-info {
+        font-size: 90%;
+    }
     .form-item {
         margin: 18px 50px;
         font-size: 100%;
@@ -468,16 +473,16 @@ textarea {
     #logo {
         padding-right: 16px;
         padding-left:20px;
+        margin-right:80px;
     }
 
     #logo-name {
         font-size: 300%;
-        padding-left: 0;
+        padding-left: 3px;
         margin-top: 30px;
     }
 
     #strapline {
-        padding-left: 17%;
         padding-top: 23px;
     }
 
@@ -524,7 +529,9 @@ textarea {
     .flex-form {
         width: 70%;
     }
-
+    .flex-info {
+        font-size: 85%;
+    }
     .video-box-title {
         font-size: 110%;
     }
@@ -610,7 +617,9 @@ textarea {
    #about-us {
         width: auto;
     }
-
+    .flex-info {
+        font-size: 90%;
+    }
     .video-box-title {
         font-size: 90%;
     }
