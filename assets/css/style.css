@@ -163,7 +163,14 @@ h3 {
     text-align: center;
     align-self:center;
     line-height: 25px;
+    padding:20px;
+    font-size: 120%;
 }
+.title {
+    font-size:220%;
+    padding-bottom:30px;
+    }
+
 #facilities-title, #facilities-text, #storage-text, #membership-title {
     flex-direction: column;
     text-align: center;
@@ -171,6 +178,11 @@ h3 {
     line-height: 25px;
 }
 
+.info-break {
+    border-top:5px solid #152E67;
+    width:100%;
+    margin:5px 0;
+}
 
 
 /*Footer Syling*/
