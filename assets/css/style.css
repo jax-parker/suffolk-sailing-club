@@ -155,7 +155,7 @@ h3 {
 
 #hobie2, #changing-room, #storage, #members{
     height: 120%;
-    width: auto;
+    width: 100%;
     background-color: #152E67;
 }
 #lakes-title, #facilities-title, #storage-title, #membership-title {
@@ -608,7 +608,7 @@ textarea {
     }
 
    #about-us {
-        width: inherit;
+        width: auto;
     }
 
     .video-box-title {
