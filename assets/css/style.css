@@ -145,48 +145,33 @@ h3 {
 /*Flex Container for Info Section*/
 .flex-container {
     display: flex;
-    flex-wrap: nowrap;
-    background-color: #152E67;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#info-one #info-two #info-three #info-four {
+    flex-direction: row;
 }
 
-.flex-container>div {
-    background-color: #fff;
-    margin: 10px;
-}
-
-.flex-title {
-    align-self: flex-start;
-    font-size: 50px;
-    padding: 10px;
-}
-
-.flex-info {
-    align-self: center;
-    justify-content: flex-end;
-    font-size: 20px;
-    text-align: left;
-    Padding: 22px;
-}
-
-#hobie2 {
+#hobie2, #changing-room, #storage, #members{
     height: 120%;
+    width: auto;
     background-color: #152E67;
+}
+#lakes-title, #facilities-title, #storage-title, #membership-title {
+    flex-direction: column;
+    text-align: center;
+    align-self:center;
+    line-height: 25px;
+}
+#facilities-title, #facilities-text, #storage-text, #membership-title {
+    flex-direction: column;
+    text-align: center;
+    align-self:center;
+    line-height: 25px;
 }
 
-#changing-room {
-    height: 120%;
-    background-color: #152E67;
-}
 
-#boat-storage {
-    height: 120%;
-    background-color: #152E67;
-}
-
-#member-canoe {
-    height: 120%;
-    background-color: #152E67;
-}
 
 /*Footer Syling*/
 .social-networks {
@@ -470,25 +455,31 @@ textarea {
     }
 
     #logo {
-        padding-right: 5px;
+        padding-right: 10px;
+        padding-left:20px;
     }
 
     #logo-name {
-        font-size: 210%;
+        font-size: 330%;
         padding-left: 0;
         margin-top: 30px;
     }
 
     #strapline {
-        padding-left: 15%;
-        padding-top: 70px;
+        padding-left: 17%;
+        padding-top: 23px;
     }
 
     #menu {
         font-size: 83%;
-        padding: 3px;
+        padding: 8px;
     }
 
+    #menu li {
+        display: inline;
+        margin: 0;
+        padding: 45px;
+    }
     #welcome-outer {
         height: 400px;
     }
@@ -497,11 +488,7 @@ textarea {
         width: 110px;
     }
 
-    #menu li {
-        display: inline;
-        margin: 0;
-        padding: 15px;
-    }
+   
 
     .info-sub-header {
         font-size: 85%;
@@ -580,7 +567,9 @@ textarea {
     #menu {
         padding: 3px;
     }
-
+    #menu li {
+                padding: 5px;
+    }
     #welcome-outer {
         height: 400px;
     }
