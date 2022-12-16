@@ -12,6 +12,8 @@
     * [Typography](#Typography)
     * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
+    * [Differences to Design](#Differences-to-Design)
+    * [Limitations](#Limitations)
     * [Features](#Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Features-Left-to-Implement)
@@ -141,14 +143,19 @@ Favicon - https://favicon.io/<br>
 
 #### Wireframes
 Home Page<br>
-![Home Page Wireframe](assets/wireframes/wireframe-home-page.jpg)<br>
+* [Home Page Wireframe](assets/wireframes/wireframe-home-page.jpg)<br>
 About Page<br>
-![Activities Page Wireframe](assets/wireframes/wireframe-activities-page.jpg)<br>
+* [Activities Page Wireframe](assets/wireframes/wireframe-activities-page.jpg)<br>
 Contact Page<br>
-![Contact Page Wireframe](assets/wireframes/wireframe-contact-page.jpg)<br>
+* [Contact Page Wireframe](assets/wireframes/wireframe-contact-page.jpg)<br>
 Thank You Page<br>
-![Thank You Page Wireframe](assets/wireframes/wireframe-thankyou-page.jpg)<br>
+* [Thank You Page Wireframe](assets/wireframes/wireframe-thankyou-page.jpg)<br>
 
+# Differences To Design
+After comparing the original wireframe designs to the finished website....
+
+# Limitations
+Due to no JavaScript functionality the contact form does not store data.
 ## Features
 
 ### Existing Features
