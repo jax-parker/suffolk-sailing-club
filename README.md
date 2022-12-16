@@ -206,7 +206,7 @@ Testing of form validation will also be required to ensure the correct inputs ar
 
 The live Project can be found [here](https://jax-parker.github.io/suffolk-sailing-club/).</br>
 #### Validation Test Cases
-To validate web accessibility the webiste was tested on [Wave](https://wave.webaim.org/). No errors were found. Nine alerts were shown but were for items such as an H4 following an H2 instead of an H3 but I decided not to change the CSS.<br>
+To validate web accessibility the webiste was tested on [Wave](https://wave.webaim.org/). No errors were found. Five alerts were shown stating the alt text was not sufficient. This was improved and the test rerun but did not improve the score.<br>
 ![Test On Wave](assets/readme-images/wave-accessibility.jpg)<br>
 
 ### Validation Testing
