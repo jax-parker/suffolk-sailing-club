@@ -77,7 +77,7 @@ The purpose of this is to fulfil user story:
 The Home Page will contain a hero image and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
 > As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
 > As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.<br>
-> As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
+> As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.<br>
 The Home Page will contain small sections of information about the club.
 ![Home Page](assets/readme-images/home-page.jpg)
 
