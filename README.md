@@ -219,8 +219,9 @@ Website was run through Google Developer Tools - Lighthouse with the following s
 ![Lighthouse Test](assets/readme-images/lighthouse-test.jpg)<br>
 
 ### Function Testing
-**Validation tests were run as below for user experience. Details of how they were performed along with other validation testing can be found ![Here](assets/readme-images/test-report.pdf).<br>
+**Validation tests were run as below for user experience. Details of how they were performed along with other validation testing can be found [Here](assets/readme-images/test-report.pdf).**<br>
 Please note this report is a PDF and will require google docs or Acrobat to open.<br>
+The site was also tested at ![Am I Responsive Ready](https://amiresponsiveready.com/check/?url=https%3A%2F%2Fjax-parker.github.io%2Fsuffolk-sailing-club%2F) which shows the site portrait and landscape on different types of platforms.
 
 * As a First Time user, I want to easily understand the main purpose of the site and learn more about the club:
 * As a Returning user, I want to reread information about the club I may have forgotten or not been sure of:
