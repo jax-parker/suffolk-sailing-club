@@ -390,12 +390,14 @@ textarea {
     font-size: 200%;
     color: #152E67;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .in-touch {
     font-size: 150%;
     color: #152E67;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .thank-you-image {
@@ -408,8 +410,8 @@ textarea {
 }
 
 .thank-you-text {
-    padding-top: 260px;
-    padding-left: 200px;
+    padding-top: 70px;
+    padding-left: 190px;
 }
 
 /* Media queries */
@@ -458,18 +460,13 @@ textarea {
         width: 90%;
     }
 
-    .thank-you-text {
-        padding-top: 270px;
-    }
-
     .thank-you {
         font-size: 120%;
-        background-color: rgba(255, 255, 255, 0.3);
+        margin-top: 10px;
     }
 
     .in-touch {
         font-size: 100%;
-        background-color: rgba(255, 255, 255, 0.3);
     }
 }
 
@@ -552,15 +549,6 @@ textarea {
 
     .thank-you-image {
         height: 350px;
-    }
-
-    .thank-you-text {
-        padding-top: 150px;
-    }
-
-    .thank-you {
-        font-size: 100%;
-        background-color: rgba(255, 255, 255, 0.3);
     }
 
     .in-touch {
@@ -673,5 +661,5 @@ textarea {
     .social-networks i {
         font-size: 250%;
         padding: 3%;
-
     }
+}
