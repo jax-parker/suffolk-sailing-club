@@ -35,14 +35,13 @@
 ## Purpose
 This Website was created for the sole purpose of completing the first project for the Code Institute's Full Stack Developer course.
 It was built using the knowledge gained from the previous HTML and CSS courses. A full list of technologies used can be found in the technologies section of this document.
+The Suffolk Sailing Club website is a fictitious site designed for the owners of a privately owned lake offering membership to a club which provides facilities for small sailing boats, kayaks and paddleboards. The client wants to promote the club to increase membership numbers and provide information to current members regarding lessons, clubs and social activities. The site is targeted at anyone who is interested in amateur water sports who would like to take up or continue with this hobby and also improve their skills via the lessons offered. It is also encouraging members to join the social events as a way to engage with other members of the club.
 
 The live website can be found [here](https://jax-parker.github.io/suffolk-sailing-club/).
 
 ## Suffolk Sailing Club Responsive Website
 
 ![Website Mock Up](assets/readme-images/screen-mock-up.jpg)
-
-The Suffolk Sailing Club website is a fictitious site designed for the owners of a privately owned lake offering membership to a club which provides facilities for small sailing boats, kayaks and paddleboards. The client wants to promote the club to increase membership numbers and provide information to current members regarding lessons, clubs and social activities. The site is targeted at anyone who is interested in amateur water sports who would like to take up or continue with this hobby and also improve their skills via the lessons offered. It is also encouraging members to join the social events as a way to engage with other members of the club.
 
 ***
 ## User Experience Design
@@ -213,7 +212,7 @@ To validate web accessibility the webiste was tested on [Wave](https://wave.weba
 ### Validation Testing
 All Pages were run through the [W3C HTML Validator](https://validator.w3.org/) and showed no errors.<br>
 ![W3C HTML Test](assets/readme-images/w3c-checker.jpg)<br>
-CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and showed no errors.<br>
+CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and showed no errors.<br>
 Website was tested by running locally and tested on the deployed version. No differences found.
 ![W3C CSS Test](assets/readme-images/w3c-css-checker.jpg)<br>
 Website was run through Google Developer Tools - Lighthouse with the following scores.<br>
