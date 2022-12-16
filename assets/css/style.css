@@ -149,40 +149,51 @@ h3 {
     justify-content: center;
     align-items: center;
 }
+
 #info-one #info-two #info-three #info-four {
     flex-direction: row;
 }
 
-#hobie2, #changing-room, #storage, #members{
+#hobie2,
+#changing-room,
+#storage,
+#members {
     height: 120%;
     width: auto;
     background-color: #152E67;
 }
 
-#lakes-title, #facilities-title, #storage-title, #membership-title {
+#lakes-title,
+#facilities-title,
+#storage-title,
+#membership-title {
     flex-direction: column;
     text-align: center;
-    align-self:center;
+    align-self: center;
     line-height: 25px;
-    padding:20px;
+    padding: 20px;
     font-size: 120%;
 }
-.title {
-    font-size:220%;
-    padding-bottom:30px;
-    }
 
-#facilities-title, #facilities-text, #storage-text, #membership-title {
+.title {
+    font-size: 220%;
+    padding-bottom: 30px;
+}
+
+#facilities-title,
+#facilities-text,
+#storage-text,
+#membership-title {
     flex-direction: column;
     text-align: center;
-    align-self:center;
+    align-self: center;
     line-height: 25px;
 }
 
 .info-break {
-    border-top:5px solid #152E67;
-    width:100%;
-    margin:5px 0;
+    border-top: 5px solid #152E67;
+    width: 100%;
+    margin: 5px 0;
 }
 
 
@@ -407,15 +418,16 @@ textarea {
 @media all and (max-width: 950px) {
 
     #header-box {
-        padding: 10px 30px 30px 10px;
+        padding: 24px 30px 30px 10px;
     }
 
     #strapline {
-        padding-left: 0;
+        padding-left: 3px;
         padding-top: 20px;
     }
+
     #logo {
-        padding-bottom: inherit;
+        padding-bottom: 10px;
     }
 
     .flex-container {
@@ -423,20 +435,22 @@ textarea {
         justify-content: space-around;
         margin-left: 2px;
     }
+
     .flex-info {
         font-size: 90%;
     }
+
     .form-item {
-        margin: 18px 50px;
+        margin: 15px 35px;
         font-size: 100%;
-        width: 80%;
-        font-weight: bolder;
+        width: 90%;
+        font-weight: bold;
     }
 
     .form-item-radio {
-        margin: 18px 100px;
+        margin: 18px 15px;
         font-size: 100%;
-        width: 80%;
+        width: 100%;
         font-weight: bold;
     }
 
@@ -460,7 +474,7 @@ textarea {
 }
 
 /* Small screens */
-@media all and (max-width: 800px) {
+@media all and (max-width: 850px) {
     .flex-container {
         /* On small screens, we are no longer using row direction but column */
         flex-direction: column;
@@ -473,18 +487,14 @@ textarea {
 
     #logo {
         padding-right: 16px;
-        padding-left:20px;
-        margin-right:80px;
+        padding-left: 20px;
+        margin-right: 40px;
     }
 
     #logo-name {
         font-size: 300%;
         padding-left: 3px;
         margin-top: 30px;
-    }
-
-    #strapline {
-        padding-top: 23px;
     }
 
     #menu {
@@ -497,18 +507,19 @@ textarea {
         margin: 0;
         padding: 45px;
     }
+
     #welcome-outer {
         height: 400px;
     }
 
     #welcome-text {
         width: 69px;
-        font-size:45px;
+        font-size: 45px;
     }
 
-   .info-header {
-    margin-top:0;
-   }
+    .info-header {
+        margin-top: 0;
+    }
 
     .info-sub-header {
         font-size: 85%;
@@ -530,9 +541,11 @@ textarea {
     .flex-form {
         width: 70%;
     }
+
     .flex-info {
         font-size: 85%;
     }
+
     .video-box-title {
         font-size: 110%;
     }
@@ -563,6 +576,7 @@ textarea {
         font-size: 100%;
         width: 80%;
         font-weight: bold;
+        margin-left: 65px;
     }
 
     .button-space {
@@ -571,7 +585,7 @@ textarea {
 }
 
 /* Mobile screens */
-@media all and (max-width: 320px) {
+@media all and (max-width: 520px) {
 
     .flex-container {
         flex-direction: column;
@@ -580,23 +594,28 @@ textarea {
 
     #logo {
         padding-right: 5px;
-        padding-top: inherit;
+        padding-top: 30px;
+        margin-right: 42px;
     }
+
     #logo-name {
-        font-size: 300%;
+        font-size: 289%;
         padding-left: 0;
         margin-top: 30px;
     }
+
     #strapline {
-        padding-top: 15px;
+        padding-top: 22px;
     }
 
     #menu {
         padding: 3px;
     }
+
     #menu li {
-                padding: 5px;
+        padding: 5px;
     }
+
     #welcome-outer {
         height: 400px;
     }
@@ -615,38 +634,44 @@ textarea {
         margin-top: 5px;
     }
 
-   #about-us {
+    #about-us {
         width: auto;
     }
+
     .flex-info {
         font-size: 90%;
     }
+
     .video-box-title {
         font-size: 90%;
     }
+
     .form-box {
         width: 90%;
     }
+
     .form-item {
         margin: 18px 5px 10px;
         font-size: 100%;
         width: 95%;
-        font-weight: bold;
     }
-   .form-item-radio {
-    margin: 18px 5px;
-    font-size: 91%;
-   }
-  .form-container p {
-font-size: 120%;
-  }
-   .thank-you-text {
+
+    .form-item-radio {
+        margin: 18px 5px;
+        font-size: 91%;
+    }
+
+    .form-container p {
+        font-size: 120%;
+    }
+
+    .thank-you-text {
         padding-top: 35px;
-        margin-right:10px;
+        margin-right: 10px;
     }
 
     .social-networks i {
         font-size: 250%;
-        padding:3%;
+        padding: 3%;
 
-}
+    }
