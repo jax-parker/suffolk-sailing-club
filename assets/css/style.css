@@ -424,8 +424,9 @@ textarea {
     }
 
     #strapline {
-        padding-left: 3px;
+        padding-left: 175px;
         padding-top: 20px;
+        font-size:142%;
     }
 
     #logo {
@@ -594,6 +595,8 @@ textarea {
 
     #strapline {
         padding-top: 22px;
+        padding-left: inherit;
+        font-size: 129%;
     }
 
     #menu {
