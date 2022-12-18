@@ -154,7 +154,7 @@ Thank You Page<br>
 # Differences To Design
 After comparing the original wireframe designs to the finished website; 
 * Home Page<br>
-  The homepage had a div added with a title for the Club information section to break up the page. The mobile version had to have the title and strapline realigned to fit the screensize.<br>
+  The homepage had a div added with a title for the Club information section to break up the page. The mobile version had to have the title and strapline realigned to fit the screensize on all pages.<br>
 * Activities Page<br>
   The activities were spread across the whole width of the page with an obscured background to make the club activities 'pop out'. A short intro title was added just before the video to introduce it.<br>
 * Contact Page<br>
