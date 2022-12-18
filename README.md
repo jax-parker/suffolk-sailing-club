@@ -153,14 +153,14 @@ Thank You Page<br>
 
 # Differences To Design
 After comparing the original wireframe designs to the finished website; 
-* Home Page
-The homepage had a div added with a title for the Club information section to break up the page. The mobile version had to have the title and strapline realigned to fit the screensize.<br>
-* Activities Page
-The activities were spread across the whole width of the page with an obscured background to make the club activities 'pop out'. A short intro title was added just before the video to introduce it.<br>
-* Contact Page
-On first design, the contact page call to action (the form) was lost so a reverse block background was added the edges softened with radius adjustment.
-* Thank you Page
-The text had a background added to it to ensure it didn't get lost against the background of the hero image taken from the homepage and the nav bar was removed. Clicking on the title will get you back to the homepage if required.<br>
+* Home Page<br>
+  The homepage had a div added with a title for the Club information section to break up the page. The mobile version had to have the title and strapline realigned to fit the screensize.<br>
+* Activities Page<br>
+  The activities were spread across the whole width of the page with an obscured background to make the club activities 'pop out'. A short intro title was added just before the video to introduce it.<br>
+* Contact Page<br>
+  On first design, the contact page call to action (the form) was lost so a reverse block background was added the edges softened with radius adjustment.
+* Thank you Page<br>
+  The text had a background added to it to ensure it didn't get lost against the background of the hero image taken from the homepage and the nav bar was removed. Clicking on the title will get you back to the homepage if required.<br>
 * Please see [Here](assets/wireframes/wireframe_vs_website.pdf) for images of differences to design.<br>
 
 # Limitations
