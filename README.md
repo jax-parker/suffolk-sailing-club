@@ -274,7 +274,7 @@ The site was also tested at ![Am I Responsive Ready](https://amiresponsiveready.
 * Thank you page text was not showing properly on smaller screens. This was resolved by by adding css styling and a translucent background on smaller screens.
 * Logo alignment. The boat was sitting lower than the title and looked incorrect. This was resolved by css styling on all media sizes.
 * Added a lower media of 320px and adjusted the CSS to accomodate smaller mobile screens.
-* The'required' in the input line for my form on the contacts page would not work as the info required alert did not show up and redirection worked on clicking the submit button. I sought help on Stack Overflow and Slack.
+* The'required' in the input line for my form on the contacts page would not work as the info required alert did not show up and redirection worked on clicking the submit button. I sought help on Stack Overflow and Slack.[Stack Overflow Answer](assets/readme-images/stack-overflow-answer.jpg). This was not the case though and I found the answer by returning to the Love Running Project in the course and discovering that the type of the button had to be submit. 
 ***
 ## Deployment
 
