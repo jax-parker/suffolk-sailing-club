@@ -152,6 +152,8 @@ Thank You Page<br>
 * [Thank You Page Wireframe](assets/wireframes/wireframe-thankyou-page.jpg)<br>
 
 # Differences To Design
+* Please see [Here](assets/wireframes/wireframe_vs_website.pdf) for images of differences to design.<br>
+
 After comparing the original wireframe designs to the finished website; 
 * Home Page<br>
   The homepage had a div added with a title for the Club information section to break up the page. The mobile version had to have the title and strapline realigned to fit the screensize on all pages.<br>
@@ -161,7 +163,7 @@ After comparing the original wireframe designs to the finished website;
   On first design, the contact page call to action (the form) was lost so a reverse block background was added the edges softened with radius adjustment.
 * Thank you Page<br>
   The text had a background added to it to ensure it didn't get lost against the background of the hero image taken from the homepage and the nav bar was removed. This was to encourage users to click on the social icons instead. Clicking on the title will get you back to the homepage if required.<br>
-* Please see [Here](assets/wireframes/wireframe_vs_website.pdf) for images of differences to design.<br>
+
 
 # Limitations
 Due to no JavaScript functionality the contact form does not store data.
@@ -235,8 +237,9 @@ Website was run through Google Developer Tools - Lighthouse with the following s
 ![Lighthouse Test](assets/readme-images/lighthouse-test.jpg)<br>
 
 ### Function Testing
-**Validation tests were run as below for user experience. Details of how they were performed along with other validation testing can be found [Here](assets/readme-images/test-report.pdf).**<br><br>
+**Validation tests were run as below for user experience. Details of how they were performed along with other validation testing can be found [Here](assets/readme-images/test-report.pdf).**<br>
 Please note this report is a PDF and will require google docs or Acrobat to open.<br>
+
 The site was also tested at [Am I Responsive Ready](https://amiresponsiveready.com/check/?url=https%3A%2F%2Fjax-parker.github.io%2Fsuffolk-sailing-club%2F) which shows the site portrait and landscape on different types of platforms.
 
 * As a First Time user, I want to easily understand the main purpose of the site and learn more about the club:
