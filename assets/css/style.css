@@ -371,8 +371,8 @@ h3 {
 }
 
 .form-containter {
-    width:90%;
-    margin:auto;
+    width: 90%;
+    margin: auto;
 }
 
 .form-container p {
@@ -431,11 +431,15 @@ textarea {
     #strapline {
         padding-left: 175px;
         padding-top: 20px;
-        font-size:142%;
+        font-size: 142%;
     }
 
     #logo {
         padding-bottom: 10px;
+    }
+
+    #logo-name {
+        padding-left: 43px;
     }
 
     .flex-container {
@@ -448,26 +452,27 @@ textarea {
     }
 
     .form-item {
-        margin: 15px 35px;
+        margin: 15px 56px;
         font-size: 100%;
-        width: 90%;
+        width: 85%;
         font-weight: bold;
     }
 
     .form-item-radio {
-        margin: 18px 15px;
+        margin: 18px 105px;
         font-size: 100%;
         width: 100%;
-        font-weight: bold;
     }
 
     .form-box {
         width: 90%;
     }
+
     .form-containter {
-        width:85%;
-        margin:auto;
+        width: 85%;
+        margin: auto;
     }
+
     .thank-you {
         font-size: 120%;
         margin-top: 10px;
@@ -568,6 +573,12 @@ textarea {
         margin: auto;
     }
 
+    .form-item {
+        margin: 15px 10px;
+        width: 95%;
+
+    }
+
     .form-item-radio {
         font-size: 100%;
         width: 80%;
@@ -591,7 +602,7 @@ textarea {
     #logo {
         padding-right: 5px;
         padding-top: 30px;
-        margin-right: 42px;
+        margin-right: 33px;
     }
 
     #logo-name {
@@ -602,7 +613,7 @@ textarea {
 
     #strapline {
         padding-top: 22px;
-        padding-left: inherit;
+        padding-left: 23px;
         font-size: 129%;
     }
 
@@ -636,6 +647,14 @@ textarea {
         width: auto;
     }
 
+    #hobie2,
+    #changing-room,
+    #storage,
+    #members {
+        width: 90%;
+
+    }
+
     .flex-info {
         font-size: 90%;
     }
@@ -660,8 +679,8 @@ textarea {
     }
 
     .form-containter {
-        width:70%;
-        margin:auto;
+        width: 70%;
+        margin: auto;
     }
 
     .form-container p {
