@@ -73,16 +73,16 @@ All Pages will contain a Navigation menu at the top of the Webpage that directs 
 The Nav Menu will be sticky on all devices to avoid the user having to scroll to the top of the page to navigate somewhere else. It will also be underlined on the active page to remind the user where they are.
 The purpose of this is to fulfil user story:
 > As a First Time user, I want to be able to easily navigate throughout the site to find content.<br>
-> As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most.
+> As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most.<br>
 ![Navigation Bar](assets/readme-images/nav-bar.jpg)
 
-The Home Page will contain a hero image and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
+The Home Page will contain a hero image of the lake and information about the club. There is a contact us button at the bottom of the page. This page is to help implement the user stories:
 > As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
 > As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop.<br>
 > As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.<br>
-The Home Page will contain small sections of information about the club.
 ![Home Page](assets/readme-images/home-page.jpg)
 
+The Home Page will contain small sections of information about the club.
 The purpose of this is to fulfil the user stories:
 > As a First Time user, I want to easily understand the main purpose of the site and learn more about the club.<br>
 > As a Returning user, I want to reread information about the club I may have forgotten or not been sure of.
@@ -128,7 +128,7 @@ The purpose of this is to fulfil the user stories:
 The two main colours used are Dark Blue #152E67 and a Light Blue #3493D0.  These colours were both matched to the club logo using the dropper in Paint. The third shade of blue in the logo, #1A64A4 was used for the hover colour on the Contact Us button. The blue was chosen to represent the subject of the water and give a relaxed feel.<br>
 ![image of the logo; a sailing boat in three shades of blue](assets/favicons/apple-touch-icon.png)
 #### Typography
-The headers on all pages throughout the Website are using the **Roboto Condensed** font while the main text is using the **Roboto** font. These were chosen as a complimentary pair using Fontpair (https://www.fontpair.co/all) which recommended them a good match.
+The headers on all pages throughout the Website are using the **Roboto Condensed** font while the main text is using the **Roboto** font. These were chosen as a complimentary pair using Fontpair (https://www.fontpair.co/all) which recommended them a good match.<br>
 ![Fonts Used](assets/readme-images/roboto-font.jpg)
 #### Imagery
 The client wanted the logo to be recognisable on any media site and was keen for it to be in the header for each page and as the favicon on the address tab. The photos were chosen to match the text and either provide visual information about the clubs facilities or to entice new members to the club. Photos were sourced from the following:<br>
@@ -139,14 +139,14 @@ The Lakes & Membership - Home photos taken on my iPhone 8.<br>
 Facilities - https://pixabay.com/photos/yellow-changing-room-4719246/<br>
 Storage - https://pixabay.com/photos/boat-shelf-florida-usa-vacations-3746219/<br>
 Activity Icons - https://fontawesome.com/<br>
-Favicon - https://favicon.io/<br>
+Favicon was created at - https://favicon.io/<br>
 
 #### Wireframes
 Home Page<br>
 * [Home Page Wireframe](assets/wireframes/wireframe-home-page.jpg)<br>
-About Page<br>
+Activities Page<br>
 * [Activities Page Wireframe](assets/wireframes/wireframe-activities-page.jpg)<br>
-Contact Page<br>
+Contact Us Page<br>
 * [Contact Page Wireframe](assets/wireframes/wireframe-contact-page.jpg)<br>
 Thank You Page<br>
 * [Thank You Page Wireframe](assets/wireframes/wireframe-thankyou-page.jpg)<br>
@@ -156,11 +156,11 @@ After comparing the original wireframe designs to the finished website;
 * Home Page<br>
   The homepage had a div added with a title for the Club information section to break up the page. The mobile version had to have the title and strapline realigned to fit the screensize on all pages.<br>
 * Activities Page<br>
-  The activities were spread across the whole width of the page with an obscured background to make the club activities 'pop out'. A short intro title was added just before the video to introduce it.<br>
+  The activities were spread across the whole width of the page with an obscured background image to make the club activities 'pop out'. A short intro title was added just before the video to introduce it.<br>
 * Contact Page<br>
   On first design, the contact page call to action (the form) was lost so a reverse block background was added the edges softened with radius adjustment.
 * Thank you Page<br>
-  The text had a background added to it to ensure it didn't get lost against the background of the hero image taken from the homepage and the nav bar was removed. Clicking on the title will get you back to the homepage if required.<br>
+  The text had a background added to it to ensure it didn't get lost against the background of the hero image taken from the homepage and the nav bar was removed. This was to encourage users to click on the social icons instead. Clicking on the title will get you back to the homepage if required.<br>
 * Please see [Here](assets/wireframes/wireframe_vs_website.pdf) for images of differences to design.<br>
 
 # Limitations
@@ -218,7 +218,7 @@ All nav links should direct to the correct html pages as per their names. The Ho
 
 All links to external websites (social media sites) must open in a new browser.
 
-Testing of form validation will also be required to ensure the correct inputs are taken, that all fields are required and thank you page appears on submission.
+Testing of form validation will also be required to ensure the correct inputs are taken, that all fields are required (excluding the message box) and thank you page appears on submission.
 
 The live Project can be found [here](https://jax-parker.github.io/suffolk-sailing-club/).</br>
 #### Validation Test Cases
@@ -235,55 +235,55 @@ Website was run through Google Developer Tools - Lighthouse with the following s
 ![Lighthouse Test](assets/readme-images/lighthouse-test.jpg)<br>
 
 ### Function Testing
-**Validation tests were run as below for user experience. Details of how they were performed along with other validation testing can be found [Here](assets/readme-images/test-report.pdf).**<br>
+**Validation tests were run as below for user experience. Details of how they were performed along with other validation testing can be found [Here](assets/readme-images/test-report.pdf).**<br><br>
 Please note this report is a PDF and will require google docs or Acrobat to open.<br>
-The site was also tested at ![Am I Responsive Ready](https://amiresponsiveready.com/check/?url=https%3A%2F%2Fjax-parker.github.io%2Fsuffolk-sailing-club%2F) which shows the site portrait and landscape on different types of platforms.
+The site was also tested at [Am I Responsive Ready](https://amiresponsiveready.com/check/?url=https%3A%2F%2Fjax-parker.github.io%2Fsuffolk-sailing-club%2F) which shows the site portrait and landscape on different types of platforms.
 
 * As a First Time user, I want to easily understand the main purpose of the site and learn more about the club:
 * As a Returning user, I want to reread information about the club I may have forgotten or not been sure of:
 - **Testing was performed to ensure Club information was displayed on the Home Page. - Successful**<br>
-
+---
 * As a First Time user, I want to be able to easily navigate throughout the site to find content:
 * As a Returning user, I want to navigate quickly through pages I have seen before to get to the pages which are updated the most:
 - **Testing was performed on all Navigation links to ensure users can easily navigate the Website. - Successful**
-
+---
 * As a First Time user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop:
 * As a Returning user, I want to view the website and content clearly on my mobile device, tablet, desktop or laptop:
 - **Testing was performed to ensure the Website was responsive on all devices. - Successful**
-
+---
 * As a First Time user, I want to find ways to follow the Suffolk Sailing Club on different social media platforms:
 - **Testing was performed to ensure Social Media links had been added to the footer of each page and when clicked on, opened in a new window. - Successful**
-
+---
 * As a First Time user, I want to see what activities and social events the club holds:
 * As a Returning user, I want to see what clubs, lessons or social events are being organised:
 * As a Frequent user, I want to check to see if there are any new upcoming events or club activities:
 - **Testing was performed to ensure the Activities page clearly showed each activity, was easily readable and the video played correctly and the contact us button redirected to the form. - Successful**
-
+---
 * As a First Time user, I want to contact the club to apply for membership or ask for more information:
 * As a Returning user, I want to contact the organisation so I can request more information:
 * As a Frequent user, I want to sign up to the clubs, lessons or social events or request more information about them:
 - **Testing was performed to ensure that all Contact Us buttons were functioning correctly, that all form inputs were required and the submission form directed to the thank you page. - Successful**
-
+---
 * As a First Time user, I want to be sure my details have been submitted and I will receive a reply:
 * As a Returning user, I want to be sure my details have been submitted and I will receive a reply:
 * As a Frequent user, I want to be sure my details have been submitted and I will receive a reply:
 - **Testing was done to ensure the thank you page was clear and stated a reply will be soon. - Successful**
-
+---
 
 ### Issues and Resolutions to issues found during testing
-* Clicking the logo doesn't redirect to home page. This was resolved by updating the href on all Pages.
+* Clicking the club name doesn't redirect to home page. This was resolved by updating the href on all Pages.
 * Responsiveness on medium size screen was misaligned. This was resolved by adding css styling to the Medium Screens section.
-* Video on Activities page was not showing on live website. This was resolved by removing a backslash from the source address.
+* Video on Activities page was not showing on live website. This was resolved by removing a backslash from the source address as advised by Student support.
 * Hero image disappeared from screen on homepage. This was resolved by adding background-size:cover and positioning to center.
-* Flex boxes on Homepage would not align properly. This was resolved by more studying of flex boxes, how they worked and playing the Zombie Flex game.
+* Flex boxes on Homepage would not align properly. This was resolved by more studying of flex boxes, how they worked and playing the Zombie Flex game.[Flexbox Zombies](https://mastery.games/flexboxzombies/)
 * Spelling mistakes were found when proof reading, these were corrected.
 * Background on Activities page was overpowering the text. This was fixed by increasing the opacity to 0.8.
 * Contact form section was getting lost by other divs overpowering colour. This was fixed by changing colors so the form stood out more.
-* Contact form was not bold enough. This was resolved by adding css styling to the form to ensure it was properly visible.
+* Contact form was not bold enough. This was resolved by adding css styling to the form to ensure it was properly visible. I also ran into problems resizing for responsiveness and although stays in the content box, I would like to improve this further.
 * Thank you page text was not showing properly on smaller screens. This was resolved by by adding css styling and a translucent background on smaller screens.
-* Logo alignment. The boat was sitting lower than the title and looked incorrect. This was resolved by css styling on all media sizes.
+* Logo alignment. The boat was sitting lower than the title and looked incorrect. This was resolved by css styling on all media sizes. 
 * Added a lower media of 320px and adjusted the CSS to accomodate smaller mobile screens.
-* The'required' in the input line for my form on the contacts page would not work as the info required alert did not show up and redirection worked on clicking the submit button. I sought help on Stack Overflow and Slack.[Stack Overflow Answer](assets/readme-images/stack-overflow-answer.jpg). This was not the case though and I found the answer by returning to the Love Running Project in the course and discovering that the type of the button had to be submit. 
+* The'required' in the input line for my form on the contacts page would not work as the info required alert did not show up and redirection worked on clicking the submit button. I sought help on Stack Overflow and Slack.[Stack Overflow Answer](assets/readme-images/stack-overflow-answer.jpg). This was not the case though and I found the answer by returning to the Love Running Project in the course and discovering that the type of the button had to be submit. Retested and working correctly.
 ***
 ## Deployment
 
@@ -296,7 +296,7 @@ The following commands were used throughout the project:
 * git commit -m *commit message explaining the updates* - This command was used to commit changes to the local repository.
 * git push - This command is used to push all commited changes to the GitHub repository.
 
-**Git Commit Note** - to begin with my commits were all over the place and did not have any structure with more deletions than insertions but as my project progressed my commits became structured and more consise.
+**Git Commit Note** - to begin with my commits were all over the place and did not have any structure with more deletions than insertions but as my project progressed my commits and my way of coding became more structured and more consise.
 
 ### Using Github Pages
 1. Navigate to the GitHub [Repository:](https://github.com/jax-parker/suffolk-sailing-club)
