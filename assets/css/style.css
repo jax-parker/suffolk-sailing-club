@@ -271,10 +271,10 @@ h3 {
     color: #152E67;
 }
 
-.button-space {
+/*.button-space {
     padding-top: 30px;
     padding-bottom: 30px;
-}
+}*/
 
 .footer-space {
     padding-top: 30px;
@@ -370,6 +370,11 @@ h3 {
     padding-bottom: 5px;
 }
 
+.form-containter {
+    width:90%;
+    margin:auto;
+}
+
 .form-container p {
     font-weight: bolder;
 }
@@ -434,7 +439,6 @@ textarea {
     }
 
     .flex-container {
-        /* When on medium sized screens, we center it by evenly distributing empty space around items */
         justify-content: space-around;
         margin-left: 2px;
     }
@@ -460,7 +464,10 @@ textarea {
     .form-box {
         width: 90%;
     }
-
+    .form-containter {
+        width:85%;
+        margin:auto;
+    }
     .thank-you {
         font-size: 120%;
         margin-top: 10px;
@@ -650,6 +657,11 @@ textarea {
     .form-item-radio {
         margin: 18px 5px;
         font-size: 91%;
+    }
+
+    .form-containter {
+        width:70%;
+        margin:auto;
     }
 
     .form-container p {
